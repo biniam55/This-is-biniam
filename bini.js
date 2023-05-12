@@ -56,4 +56,16 @@ var swiper = new Swiper(".mySwiper", {
     darkModeIcon.classList.toggle('bx-sun');
     document.body.classList.toggle('dark-mode');
   };
+//scroll reveal
+  ScrollReveal({
+    // reset: true,
+     distance:'80px',
+     duration:2000,
+     delay:200
+   });
+
+   ScrollReveal().reveal('.content , .heading', { origin: 'top' });
+   ScrollReveal().reveal('.himg img, .services-container, .portfolio-box, .testimonial-wraper, .contact form', { origin: 'bottom' });
+   ScrollReveal().reveal('.content h1, .image img', { origin: 'left' });
+   ScrollReveal().reveal('.content h3, .content p, .aboutc', { origin: 'right' });
   
