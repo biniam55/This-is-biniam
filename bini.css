@@ -729,38 +729,38 @@ textarea {
         grid-template-columns: 1fr;
     }
 }
-@media(max-width:450px){
-    html{
+@media screen and (max-width: 450px) {
+    html {
         font-size: 50%;
     }
-    .home{
+    .home {
         padding: 0 3% 30rem;
     }
-    .home.professionb.profession:nth-child(1) {
+    .home .professionb .profession {
         transform: rotate(-90deg) translate(-110px, -220px);
     }
-    .home.professionb.profession:nth-child(2) {
-        transform: rotate(0deg) translate(5, -335px);
+    .home .professionb .profession:nth-child(2) {
+        transform: rotate(0deg) translate(5px, -335px);
     }
-    .home.professionb.profession:nth-child(3) {
+    .home .professionb .profession:nth-child(3) {
         transform: rotate(90deg) translate(-105px, -440px);
     }
     .home .professionb .profession:nth-child(4) {
         transform: rotate(180deg) translate(-210px, -335px);
     }
-    .contact form .input-box input{
+    .contact form .input-box input {
         width: 100%;
     }
-    
 }
-@media(max-width:365px){
-    .image img{
+
+@media screen and (max-width: 365px) {
+    .image img {
         width: 90vw;
     }
-    .footer{
+    .footer {
         flex-direction: column-reverse;
     }
-    .footer p{
+    .footer p {
         margin-top: 2rem;
         text-align: center;
     }
